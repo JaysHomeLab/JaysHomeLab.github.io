@@ -6,14 +6,41 @@ h1{
     font-size:20px;
     font-style:initial;
 }
+h2{
+    text-align: center;
+    color: rgb(235,180,44);
+    background-color: rgb(5,1,43);
+    border: 2px solid rgb(0, 0, 0);
+    font-size:20px;
+    font-style:initial;
+}
+
+.h2 a:hover{
+    background-color: rgb(5,1,43);
+}
+
+.h2 li{
+    float: left;
+}
+
+.h3{
+    text-align: center;
+    color: rgb(235,180,44);
+    background-color: rgb(5,1,43);
+    border: 2px solid rgb(0, 0, 0);
+    font-size:20px;
+    font-style:initial;
+}
 body{
     background-image: url(background.png);
     background-attachment: scroll;
     background-color:rgb(5,1,43);
 }
 .navbar ul{
+    text-align: center;
     list-style-type: none;
     border: 2px solid rgb(5,1,43);
+    border-radius: 10px;
     padding: 10px;
     margin: 10px;
     overflow: hidden;
@@ -23,13 +50,15 @@ body{
     text-align: center;
     text-decoration: none;
     color: rgb(235,180,44);
-    background-image: url(background.png);
-    padding: 131px;
+    background-color: rgb(5,1,43);
+    border-radius: 10px;
+    padding: 120px;
     margin: 10px;
 }
 
 .navbar a:hover{
-    background-color: rgb(5,1,43);
+    background-color: rgb(10, 1, 87);
+    border-radius: 10px;
 }
 
 .navbar li{
@@ -45,20 +74,12 @@ body{
     overflow: hidden;
 }
 
-#box2{
+.box2{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
     margin:10px;
     padding:0px;
-}
-#box3{
-    text-align: center;
-    color: rgb(235,180,4);
-    font-size:20px;
-    font-style:initial;
-    border: 6px solid rgb(0, 0, 0);
     overflow: hidden;
-}
-
-#button{
-    display: block;
-    background: rgb(235,180,44)
 }
