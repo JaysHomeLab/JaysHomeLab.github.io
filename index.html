@@ -6,9 +6,27 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Jays Work Box</title>
         <link rel="stylesheet" href="./style.css">
+        <style>
+        div {
+  width: 150pt;
+  height: 150pt;
+  background-image: url(bargif.gif);
+  position: relative;
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+   0%  {left:0pt; top:0pt;}
+  25%  {left:500pt; top:0pt;}
+  50%  {left:1000pt; top:0pt;}
+  75%  {left:500pt; top:0pt;}
+ 100%  {left:0pt; top:0pt;}
+}
+        </style>
     </head>
     <body>
-        <h1>Welcome to my website</h1>
+        <div></div>
+        <h2>Welcome to my website</h2>
 
         <nav class="navbar">
             <ul>
@@ -18,9 +36,8 @@
                 <li><a href="Info.html">Here's some info</a></li>
             </ul>
         </nav>
-        <h2><pre>This website was made by me and no one else.</pre></h2>
-        <h2><pre>This is a costume Ui using my logo.</pre></h2>
-        <h2><pre>This website was made using Css, Html and Javascript.</pre></h2>
-        <div id="overlay"><img src="bargif.gif" alt="bargif..." /></div>
+        <h2><pre>This website was made by me and no one else.
+            This is a costume Ui using my logo.This website was made using Css, Html and Javascript.
+            So far this is pc/laptop only</pre></h2>
     </body>
 </html>

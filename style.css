@@ -1,17 +1,41 @@
+@media only screen and (max-width:1000px){/*if it is 1000px change the font to 12 pt and so on for each resolution you need.*/
+    .centered{font-size:12pt!important;}
+    }
+    @media only screen and (max-width:800px){/*if it is 800px change the font to 11 pt and so on for each resolution you need.*/
+    .centered{font-size:11pt!important;}
+    }
+    @media only screen and (max-width:600px){
+    .centered{font-size:10pt!important;}
+    }
+    @media only screen and (max-width:400px){
+    .centered{font-size:9pt!important;}
+    }
+    @media only screen and (max-width:200px){
+    .centered{font-size:8pt!important;}
+    }
+   
+    .centered{ 
+    position: absolute; 
+    width:100%;
+    height:auto;
+    text-align:center;
+    font-size:14pt;
+}
+
 h1{
     text-align: center;
     color: rgb(235,180,44);
     background-color: rgb(5,1,43);
-    border: 2px solid rgb(0, 0, 0);
-    font-size:20px;
+    border: 2pt solid rgb(0, 0, 0);
+    font-size:10pt;
     font-style:initial;
 }
 h2{
     text-align: center;
     color: rgb(235,180,44);
     background-color: rgb(5,1,43);
-    border: 2px solid rgb(0, 0, 0);
-    font-size:20px;
+    border: 2pt solid rgb(0, 0, 0);
+    font-size:10pt;
     font-style:initial;
 }
 
@@ -27,8 +51,8 @@ h2{
     text-align: center;
     color: rgb(235,180,44);
     background-color: rgb(5,1,43);
-    border: 2px solid rgb(0, 0, 0);
-    font-size:20px;
+    border: 2pt solid rgb(0, 0, 0);
+    font-size:10pt;
     font-style:initial;
 }
 body{
@@ -39,10 +63,10 @@ body{
 .navbar ul{
     text-align: center;
     list-style-type: none;
-    border: 2px solid rgb(5,1,43);
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
+    border: 2pt solid rgb(5,1,43);
+    border-radius: 5pt;
+    padding: 5pt;
+    margin: 5pt;
     overflow: hidden;
 }
 
@@ -51,14 +75,14 @@ body{
     text-decoration: none;
     color: rgb(235,180,44);
     background-color: rgb(5,1,43);
-    border-radius: 10px;
-    padding: 120px;
-    margin: 10px;
+    border-radius: 10pt;
+    padding: 40pt;
+    margin: 50pt;
 }
 
 .navbar a:hover{
     background-color: rgb(10, 1, 87);
-    border-radius: 10px;
+    border-radius: 10pt;
 }
 
 .navbar li{
@@ -69,8 +93,8 @@ body{
     list-style-type: none;
     text-decoration: none;
     display: block;
-    margin:10px;
-    padding:0px;
+    margin:5pt;
+    padding:0pt;
     overflow: hidden;
 }
 
@@ -79,8 +103,8 @@ body{
     list-style-type: none;
     text-decoration: none;
     display: block;
-    margin:10px;
-    padding:0px;
+    margin:5pt;
+    padding:0pt;
     overflow: hidden;
 }
 
@@ -89,7 +113,7 @@ body{
     list-style-type: none;
     text-decoration: none;
     display: block;
-    margin:10px;
-    padding:0px;
+    margin:5pt;
+    padding:0pt;
     overflow: hidden;
 }
