@@ -83,3 +83,13 @@ body{
     padding:0px;
     overflow: hidden;
 }
+
+.box3{
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    margin:10px;
+    padding:0px;
+    overflow: hidden;
+}
